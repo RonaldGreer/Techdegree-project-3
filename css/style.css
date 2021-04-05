@@ -1,0 +1,146 @@
+* {
+    font-family: 'Assistant', sans-serif;
+  }
+  
+  #top-head {
+    text-align: center;
+    background: #1d354a;
+    color: white;
+    margin: 0;
+    padding: 15px;
+  }
+  
+  #almost-top {
+    text-align: center;
+  }
+  
+  p {
+    text-align: center;
+    color: gray;
+  }
+  
+  .border-line {
+    padding-bottom: 10px;
+    border-bottom: 2px double black;
+  }
+  
+  fieldset {
+    border: none;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: gray;
+  }
+  
+  input[type="text"] {
+    border: none;
+    font-size: 12px;
+    width: 90%;
+    background-color: #dde0e0;
+    color: #000000;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5%;
+  }
+  
+  input[placeholder] {
+    font-style: italic;
+  }
+  
+  /*@Rohald suggested using the focus pseudo class on slack for the border darkening of text fields*/
+  input:focus {
+    border-style: solid;
+    border-color: black;
+  }
+  
+  select:focus {
+    border-style: solid;
+    border-color: black;
+  }
+  
+  #state {
+    border: none;
+    font-size: 12px;
+    width: 97%;
+    background-color: #dde0e0;
+    color: #000;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5%;
+  }
+  
+  #zip {
+    width: 50%;
+  }
+  
+  .bottom-border {
+    padding-top: 15px;
+    border-top: 2px solid black;
+  }
+  
+  #label1 {
+    margin-bottom: 10px;
+  }
+  
+  .check {
+    margin-bottom: 15px;
+  }
+  
+  .checkers {
+    color: rgb(41, 39, 39);
+    margin-left: 5px;
+    display: inline;
+  }
+  
+  #label-text {
+    margin-top: 15px;
+  }
+  
+  #other {
+    border: none;
+    font-size: 10px;
+    width: 90%;
+    background-color: #dde0e0;
+    color: #000;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5%;
+  }
+  
+  #other:focus {
+    border-style: solid;
+    border-color: #000;
+  }
+  
+  button {
+    background-color: #79B9F1;
+    color: #FFF;
+    font-size: 24;
+    width: 100%;
+    border-radius: 5%;
+    text-align: center;
+    padding: 15px 40px 15px 40px;
+  }
+  
+  .main-section {
+    background-color:#fcf7f7;
+  }
+  
+  #copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+    color: gray;
+  }
+  
+  @media (min-width: 768px) {
+    .labels {
+      display: inline;
+      width: 100%;
+    }
+  }
