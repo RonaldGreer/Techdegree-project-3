@@ -141,6 +141,8 @@
     font-style: italic;
     color: gray;
   }
+
+  /*@Sarah (she/her suggest using flex commands for the label tags)*/
   
   @media (min-width: 768px) {
     .flex-container {
