@@ -143,8 +143,8 @@
   }
   
   @media (min-width: 768px) {
-    .labels {
-      display: inline;
-      width: 100%;
+    .flex-container {
+      display: flex;
+      justify-content: left;
     }
   }

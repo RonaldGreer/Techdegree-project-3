@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<htmlnlang="en">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,35 +21,48 @@
       <form action="index.html" method="post">
 
         <fieldset>
-
+          <div id="sector-1">
         <legend><h2>Contact Information</h2></legend>
-
+        <div class="flex-container">
         <label class="labels" for="full-name">Full Name</label>
         <input type="text" id="full-name" name="Full_Name" placeholder="Required" required>
+        </div>
+        <div class="flex-container">
         <label class="labels" for="email">Email Address</label>
         <input type="text" id="email" name="Email_Address" placeholder="Required" required>
+        </div>
+        <div class="flex-container">
         <label class="labels" for="phone-number">Phone Number</label>
         <input type="text" id="phone-number" name="Phone_Number" placeholder="(111) 111-111">
+        </div>
+        <div class="flex-container">
         <label class="labels" for="city">City</label>
         <input type="text" id="city" name="city-location">
+        </div>
+        <div class="flex-container">
         <label class="labels" for="street_address">Street Address</label>
         <input type="text" id="street_address" name="Street_Address">
+        </div>
+        <div class="flex-container">
         <label class="labels" for="state">State</label>
         <select id="state" name="state_select">
           <option value="Select">Select</option>
           <option value="Alabama">Alabama</option>
           <option value="Arkansas">Arkansas</option>
         </select>
+        </div>
+        <div class="flex-container">
         <label class="labels" for="zip">Zip Code</label>
         <input type="text" id="zip" name="Zip_Code">
-
+        </div>
+          </div>
         </fieldset>
 
         <fieldset>
 
           <div class="main-section">
 
-        <legend><h2 class="border-bottom">Newsletter</h2></legend>
+        <legend><h2 class="bottom-border">Newsletter</h2></legend>
 
         <label id="label1">Select the newsletters you would like to revceive</label>
         <input type="checkbox" class="check" id="newsletter1" value="newsletter_option" name="Html_News"><label class="checkers" for="newsletter1">HTML News</label><br>
