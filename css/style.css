@@ -45,6 +45,30 @@
     padding: 15px;
     border-radius: 5%;
   }
+
+  input[type="email"] {
+    border: none;
+    font-size: 12px;
+    width: 90%;
+    background-color: #dde0e0;
+    color: #000000;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5%;
+  }
+
+  input[type="tel"] {
+    border: none;
+    font-size: 12px;
+    width: 90%;
+    background-color: #dde0e0;
+    color: #000000;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5%;
+  }
   
   input[placeholder] {
     font-style: italic;
@@ -145,8 +169,16 @@
   /*@Sarah (she/her suggest using flex commands for the label tags)*/
   
   @media (min-width: 768px) {
-    .flex-container {
+    .first .flex-container {
       display: flex;
       justify-content: left;
+    }
+
+    .first .flex-container {
+      flex-direction: row;
+    }
+
+    #zip {
+      width: 25%;
     }
   }
