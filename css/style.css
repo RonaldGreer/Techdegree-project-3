@@ -149,10 +149,16 @@
     border-radius: 5%;
     text-align: center;
     padding: 15px 40px 15px 40px;
+    height: 70px;
   }
 
   button:hover {
       background:#469ce7;
+      height: 100px;
+  }
+
+  button {
+    transition: height 1s;
   }
   
   .main-section {
@@ -167,15 +173,31 @@
   }
 
   /*@Sarah (she/her suggest using flex commands for the label tags)*/
+  /*@Claire T sent link to office hour explaining how to use flex with labels*/
+
+  .first .flex-pair {
+    display: flex;
+    flex-direction: column;
+  }
   
   @media (min-width: 768px) {
-    .first .flex-container {
-      display: flex;
-      justify-content: left;
+    .first .flex-pair {
+      flex-direction: row;
     }
 
-    .first .flex-container {
-      flex-direction: row;
+    .first input {
+      flex-grow: 1;
+      flex-basis: 75%;
+    }
+
+    .first label {
+      flex-basis: 10%;
+      height: 50px;
+      margin: auto 0;
+    }
+
+    #state {
+      width: 90%;
     }
 
     #zip {
